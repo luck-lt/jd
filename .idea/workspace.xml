@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a326b5-7729-4cbf-b716-5df3eee03ce8" name="Default Changelist" comment="mybatis-plus和mysql数据库和公共实体类的创建">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicEntityClass/PublicEntityClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicEntityClass/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f5a326b5-7729-4cbf-b716-5df3eee03ce8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/imitation-jd-1011.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/imitation-jd-1011.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +66,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -129,7 +106,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -171,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586156838924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis-plus和mysql数据库和公共实体类的创建">
+      <created>1586161009568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586161009568</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mybatis-plus和mysql数据库和公共实体类的创建">
+      <created>1586161184862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586161184862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,13 +170,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IDEA整合GitHub测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDEA整合GitHub测试" />
+    <MESSAGE value="mybatis-plus和mysql数据库和公共实体类的创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis-plus和mysql数据库和公共实体类的创建" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="865" y="114" key="CommitChangelistDialog2" timestamp="1586161007263">
+    <state x="1024" y="182" key="#Notifications" timestamp="1586161312115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="865" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161007263" />
+    <state x="1024" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586161312115" />
+    <state x="865" y="114" key="CommitChangelistDialog2" timestamp="1586161183190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="865" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161183190" />
     <state x="368" y="93" key="DiffContextDialog" timestamp="1586157737752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,14 +230,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1176" y="200" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586158002096" />
-    <state x="880" y="129" key="SettingsEditor" timestamp="1586160634653">
+    <state x="880" y="129" key="SettingsEditor" timestamp="1586161307180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="129" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586160634653" />
-    <state x="1024" y="257" key="Vcs.Push.Dialog.v2" timestamp="1586161100493">
+    <state x="880" y="129" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586161307180" />
+    <state x="1024" y="257" key="Vcs.Push.Dialog.v2" timestamp="1586161225110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161100493" />
+    <state x="1024" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161225110" />
     <state x="1173" y="323" key="git4idea.merge.GitPullDialog" timestamp="1586161093670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
