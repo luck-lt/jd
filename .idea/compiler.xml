@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
         <module name="imitation-jd-1011" />
+        <module name="PublicEntityClass" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="imitation-jd-1011" target="1.8" />
+      <module name="PublicEntityClass" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
