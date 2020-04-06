@@ -1,0 +1,11 @@
+server:
+  port: 1011
+
+spring:
+  application:
+    name: jd-provider   #注册到注册中心的名字
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  127.0.0.1:8848
+
