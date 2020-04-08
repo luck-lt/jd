@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a326b5-7729-4cbf-b716-5df3eee03ce8" name="Default Changelist" comment="">
+    <list default="true" id="f5a326b5-7729-4cbf-b716-5df3eee03ce8" name="Default Changelist" comment="mybatis-plus和mysql数据库和公共实体类的创建">
+      <change afterPath="$PROJECT_DIR$/PublicEntityClass/src/main/java/com/jd/pojo/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/SuperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/controller/JDController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/ImitationJd1011Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/java/com/jd/ImitationJd1011Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imitation-jd-1011/target/classes/com/jd/ImitationJd1011Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/imitation-jd-1011/target/classes/com/jd/ImitationJd1011Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,15 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="mybatis-cfg.xml" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,11 +90,14 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\jd\imitation-jd-1011\src\main\resources\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\jd\imitation-jd-1011\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jd\imitation-jd-1011\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,6 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586151855628</updated>
       <workItem from="1586151858774" duration="3319000" />
+      <workItem from="1586162050607" duration="290000" />
+      <workItem from="1586162369931" duration="10995000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA整合GitHub测试">
       <created>1586156434257</created>
@@ -162,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586161184862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mybatis-plus和mysql数据库和公共实体类的创建">
+      <created>1586161325863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586161325863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,14 +207,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="mybatis-plus和mysql数据库和公共实体类的创建" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1024" y="182" key="#Notifications" timestamp="1586161312115">
+    <state x="1024" y="182" key="#Notifications" timestamp="1586162065559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586161312115" />
-    <state x="865" y="114" key="CommitChangelistDialog2" timestamp="1586161183190">
+    <state x="1024" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586162065559" />
+    <state x="865" y="114" key="CommitChangelistDialog2" timestamp="1586161948036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="865" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161183190" />
+    <state x="865" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161948036" />
     <state x="368" y="93" key="DiffContextDialog" timestamp="1586157737752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,54 +227,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1343" y="333" width="274" height="208" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586157715307" />
-    <state width="573" height="279" key="GridCell.Tab.0.bottom" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.0.bottom" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.0.center" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.0.center" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.0.left" timestamp="1586160495498">
+    <state width="573" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.0.left" timestamp="1586252918479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495498" />
-    <state width="573" height="279" key="GridCell.Tab.0.right" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918479" />
+    <state width="573" height="279" key="GridCell.Tab.0.right" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.1.bottom" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.1.bottom" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.1.center" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.1.center" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.1.left" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.1.left" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
-    <state width="573" height="279" key="GridCell.Tab.1.right" timestamp="1586160495499">
+    <state width="573" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state width="573" height="279" key="GridCell.Tab.1.right" timestamp="1586252918480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="573" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586160495499" />
+    <state width="573" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586252918480" />
+    <state x="1012" y="258" key="IDE.errors.dialog" timestamp="1586161453036">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1012" y="258" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586161453036" />
     <state x="1176" y="200" key="RollbackChangesDialog" timestamp="1586158002096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1176" y="200" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586158002096" />
-    <state x="880" y="129" key="SettingsEditor" timestamp="1586161307180">
+    <state x="880" y="129" key="SettingsEditor" timestamp="1586162531548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="129" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586161307180" />
-    <state x="1024" y="257" key="Vcs.Push.Dialog.v2" timestamp="1586161225110">
+    <state x="880" y="129" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586162531548" />
+    <state x="1024" y="257" key="Vcs.Push.Dialog.v2" timestamp="1586162541280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586161225110" />
-    <state x="1173" y="323" key="git4idea.merge.GitPullDialog" timestamp="1586161093670">
+    <state x="1024" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586162541280" />
+    <state x="1173" y="323" key="git4idea.merge.GitPullDialog" timestamp="1586222076548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586161093670" />
+    <state x="1173" y="323" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586222076548" />
     <state x="1267" y="399" key="git4idea.rebase.GitRebaseDialog" timestamp="1586156881735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
