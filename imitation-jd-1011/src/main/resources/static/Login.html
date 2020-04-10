@@ -7,8 +7,52 @@
     <link rel="stylesheet" href="css/layui.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/layui.js"></script>
+    <link rel="stylesheet" href="huakuai/layui/css/layui.css">
+
+    <script src="huakuai/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        layui.config({
+            base: 'js/'
+        }).use(['sliderVerify', 'jquery', 'form'], function () {
+            var sliderVerify = layui.sliderVerify,
+                $ = layui.jquery,
+                form = layui.form;
+            /*var slider = sliderVerify.render({
+                elem: '#slider',
+                onOk: function () {//当验证通过回调
+                    layer.msg("滑块验证通过");
+                }
+            })*/
+            var slider = sliderVerify.render({
+                elem: '#slider1',
+                isAutoVerify: false,//关闭自动验证
+                bg: 'layui-bg-red',//自定义背景样式名 红
+                // text: '滑动',
+                onOk: function () {//当验证通过回调
+                    layer.msg("滑块验证通过");
+                }
+            })
+            $('#reset').on('click', function () {
+                slider.reset();
+            })
+            //监听提交
+            form.on('submit(formDemo)', function (data) {
+                if (slider.isOk()) {
+                    layer.msg(JSON.stringify(data.field));
+                } else {
+                    layer.msg("请先通过滑块验证");
+                }
+                return false;
+            });
+            $('.layui-btn-primary').click(function () {
+                slider.reset(); //滑块的重置
+            });
+        })
+    </script>
+    <!--页面布局-->
     <script type="text/javascript">
         $(function () {
+
             $(".header").css({
                 "height": "100px",
                 "background": "URL('img/headbg.jpg') repeat-x left bottom"
@@ -205,6 +249,29 @@
                                    placeholder="建议使用常用手机号"
                                    autocomplete="off" class="layui-input">
                             <i class="i-status"></i>
+                        </div>
+                    </div>
+                    <!--<div class="layui-form-item">
+                        <label class="layui-form-label">滑动验证</label>
+                        &lt;!&ndash;<div class="layui-input-block">
+                            <div id="slider" style="display: none;"></div>
+                            &lt;!&ndash;<div id="sliderVerify15865010892471059890" lay-verify="js/sliderVerify" class="slider-item">
+                                <div class="slider-bg layui-bg-green"></div>
+                                <div class="slider-text">请拖动滑块验证</div>
+                                <div class="slider-btn layui-icon layui-icon-next"></div>
+                            </div>&ndash;&gt;
+                        </div>&ndash;&gt;
+                    </div>-->
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">滑动验证</label>
+                        <div class="layui-input-block">
+                            <div id="slider1"></div>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                         </div>
                     </div>
                 </div>
