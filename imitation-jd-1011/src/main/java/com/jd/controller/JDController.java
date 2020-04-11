@@ -23,6 +23,7 @@ public class JDController {
     @GetMapping("/jd")
     public List<user> hello() {
         System.out.println("你好，龙某");
+        System.out.println("Hello,Word");
        return userService.list();
     }
 }
