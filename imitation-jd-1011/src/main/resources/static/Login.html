@@ -32,12 +32,14 @@
                     layer.msg("滑块验证通过");
                 }
             })
-            $('#reset').on('click', function () {
-                slider.reset();
-            })
             //监听提交
             form.on('submit(formDemo)', function (data) {
-                if (slider.isOk()) {
+                var gr_tel = $(this).val();
+                var re = /^1\d{10}$/;
+                if (!re.test(gr_tel)) {
+                    alert(gr_tel);
+                    layer.msg("请输入正确手机号码！");
+                }else if (slider.isOk()) {
                     layer.msg(JSON.stringify(data.field));
                 } else {
                     layer.msg("请先通过滑块验证");
@@ -251,17 +253,6 @@
                             <i class="i-status"></i>
                         </div>
                     </div>
-                    <!--<div class="layui-form-item">
-                        <label class="layui-form-label">滑动验证</label>
-                        &lt;!&ndash;<div class="layui-input-block">
-                            <div id="slider" style="display: none;"></div>
-                            &lt;!&ndash;<div id="sliderVerify15865010892471059890" lay-verify="js/sliderVerify" class="slider-item">
-                                <div class="slider-bg layui-bg-green"></div>
-                                <div class="slider-text">请拖动滑块验证</div>
-                                <div class="slider-btn layui-icon layui-icon-next"></div>
-                            </div>&ndash;&gt;
-                        </div>&ndash;&gt;
-                    </div>-->
                     <div class="layui-form-item">
                         <label class="layui-form-label">滑动验证</label>
                         <div class="layui-input-block">
